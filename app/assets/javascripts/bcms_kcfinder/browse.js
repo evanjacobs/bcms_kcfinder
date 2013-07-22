@@ -1,7 +1,7 @@
 // Determine the URL or Path to a given file
 // @param [String | Object] file A string or JSON object representing a file
 browser.fileUrl = function(file){
-    console.log("Path is:" + file.data('path'));
+    // console.log("Path is:" + file.data('path'));
     var fileURL = "";
     if(file.substr){
         fileURL = file

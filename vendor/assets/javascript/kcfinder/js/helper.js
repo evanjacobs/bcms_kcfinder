@@ -185,7 +185,7 @@ _.kuki = {
         if (path != null) str += '; path=' + path;
         if (secure) str += '; secure';
 
-        console.log("Final cookie set as '" + str + "'.");
+        // console.log("Final cookie set as '" + str + "'.");
         return (document.cookie = str) ? true : false;
     },
 
