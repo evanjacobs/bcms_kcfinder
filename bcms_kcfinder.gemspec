@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files += Dir["test/**/*"]
   s.test_files -= Dir["test/dummy/**/*"]
 
-  s.add_dependency "browsercms", "~> 3.5"
+  # s.add_dependency "browsercms", "~> 3.5"
   s.add_dependency "jquery-migrate-rails", "~> 1.1.1"
 
 end
