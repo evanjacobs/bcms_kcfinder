@@ -11,7 +11,7 @@ module BcmsKcfinder
       Cms::Section.send(:include, BcmsKcfinder::FinderExtension)
       Cms::Attachment.send(:include, BcmsKcfinder::Attachment::Linkable)
       Cms::Page.send(:include, BcmsKcfinder::Page::Linkable)
-      Cms::ImageBlock.send(:include, BcmsKcfinder::Image::Linkable)
+      Rse::ImageBlock.send(:include, BcmsKcfinder::Image::Linkable)
 
     end
 

@@ -33,7 +33,7 @@ module BcmsKcfinder
         when "files"
           create_new(Cms::FileBlock)
         when "images"
-          create_new(Cms::ImageBlock)
+          create_new(Rse::ImageBlock)
       end
       render :text => content_block.path
     end
@@ -81,7 +81,7 @@ module BcmsKcfinder
                when "files"
                  @section.linkable_children
                when "images"
-                 Cms::ImageBlock.by_section(@section)
+                 Rse::ImageBlock.by_section(@section)
                else
                  []
              end
